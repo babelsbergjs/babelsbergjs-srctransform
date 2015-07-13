@@ -1,0 +1,37 @@
+{
+  "name": "babelsbergjs-srctransform",
+  "version": "0.1.2",
+  "description": "BabelsbergJS Source Transformation",
+  "main": "src/src_transform.js",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "mocha",
+    "start": "echo 'Start node-inspector in a separate terminal!' && mocha -d --debug-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babelsbergjs/babelsbergjs-srctransform.git"
+  },
+  "keywords": [
+    "constraints",
+    "babelsberg"
+  ],
+  "author": "The Babelsberg Team",
+  "bugs": {
+    "url": "https://github.com/babelsbergjs/babelsbergjs-srctransform/issues"
+  },
+  "homepage": "https://github.com/babelsbergjs/babelsbergjs-srctransform",
+  "engines" : {
+    "node" : ">=0.12.0"
+  },
+  "dependencies": {
+    "assert": "^1.3.0",
+    "babelsbergjs-core": "^0.1.0",
+    "prototype": "0.0.5",
+    "uglifyjs": "^2.4.10"
+  },
+  "devDependencies": {
+    "babelsbergjs-cassowary": "^0.1.0",
+    "should": "^7.0.1"
+  }
+}
